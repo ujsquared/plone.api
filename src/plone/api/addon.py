@@ -7,9 +7,9 @@ from importlib.metadata import PackageNotFoundError
 from plone.api import portal
 from plone.api.exc import InvalidParameterError
 from plone.api.validation import required_parameters
+from plone.base.interfaces import INonInstallable
+from plone.base.utils import get_installer
 from Products.CMFPlone.controlpanel.browser.quickinstaller import InstallerView
-from Products.CMFPlone.interfaces import INonInstallable
-from Products.CMFPlone.utils import get_installer
 from Products.GenericSetup import EXTENSION
 from typing import Dict
 from typing import List
