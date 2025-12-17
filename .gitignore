@@ -50,7 +50,7 @@ local.cfg
 
 ## Added by .meta.toml
 # ignore docs build
-_build
+/_build
 
 ##
 # Add extra configuration options in .meta.toml:

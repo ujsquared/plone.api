@@ -125,5 +125,5 @@ commands =
 extra_lines = """
 ## Added by .meta.toml
 # ignore docs build
-_build
+/_build
 """
