@@ -3,7 +3,7 @@
 # See the inline comments on how to expand/tweak this configuration file
 [meta]
 template = "default"
-commit-id = "2.2.2"
+commit-id = "2.3.1"
 
 [pre_commit]
 codespell_extra_lines = """
@@ -119,4 +119,11 @@ commands =
     python -VV
     mkdir -p {toxinidir}/_build/plone6docs
     sphinx-autobuild -b html -d _build/plone6docs/doctrees docs _build/plone6docs/html
+"""
+
+[gitignore]
+extra_lines = """
+## Added by .meta.toml
+# ignore docs build
+/_build
 """
