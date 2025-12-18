@@ -9,6 +9,19 @@
 
 <!-- towncrier release notes start -->
 
+## 3.0.0a2 (2025-12-18)
+
+
+### Bug fixes:
+
+- Fix deprecation warnings for `INonInstallable` and `get_installer`.  @mauritsvanrees 
+
+
+### Internal:
+
+- Improve trigger for RTD PR preview builds. @stevepiercy #591
+- Ignore the `/_build` directory from building documentation. @stevepiercy #598
+
 ## 3.0.0a1 (2025-11-26)
 
 
